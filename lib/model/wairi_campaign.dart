@@ -27,7 +27,7 @@ class WairiCampaign {
   int approval;
   String campaignCombo;
   dynamic? options;
-  dynamic? discount;
+  int discount;
   String discountText;
   dynamic? discount_use;
   dynamic? influ_discount;
@@ -63,7 +63,7 @@ class WairiCampaign {
     required this.approval,
     required this.campaignCombo,
     this.options,
-    this.discount,
+    required this.discount,
     required this.discountText,
     this.discount_use,
     this.influ_discount,
@@ -142,7 +142,7 @@ class WairiCampaign {
       approval: map['approval'] as int,
       campaignCombo: map['campaignCombo'] as String,
       options: map['options'] != null ? map['options'] as dynamic : null,
-      discount: map['discount'] != null ? map['discount'] as dynamic : null,
+      discount: map['discount'] as int,
       discountText: map['discountText'] as String,
       discount_use:
           map['discount_use'] != null ? map['discount_use'] as dynamic : null,
