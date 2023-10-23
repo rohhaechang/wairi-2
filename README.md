@@ -19,4 +19,14 @@ samples, guidance on mobile development, and a full API reference.
 오정현
 노해창
 고승범
-오정현oo
+
+- pull
+
+1. git switch main
+2. git pull 원본 저장소 별칭(upstream) main
+
+- pull request 보내는 법
+
+1. git push 포크된 저장소 별칭(origin) 브랜치 명(이름)
+2. github 자신 포크된 저장소 가서 pull request 보내기
+
