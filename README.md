@@ -29,3 +29,4 @@ samples, guidance on mobile development, and a full API reference.
 
 1. git push 포크된 저장소 별칭(origin) 브랜치 명(이름)
 2. github 자신 포크된 저장소 가서 pull request 보내기
+
